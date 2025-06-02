@@ -742,7 +742,7 @@ requires-dist = [
 { name = "pandas", specifier = ">=2.2.3" },
 { name = "pillow", specifier = ">=11.2.1" },
 { name = "streamlit", specifier = ">=1.45.1" },
-{ name = "tensorflow", specifier = ">=2.12.0" },
+{ name = "tensorflow", specifier = ">=2.10.0" },
 ]
 [[package]]
 name = "requests"
@@ -916,7 +916,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorboard"
-version = "2.14.1"
+version = "2.10.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
 { name = "absl-py" },
@@ -946,7 +946,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorflow"
-version = "2.12.0"
+version = "2.10.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
 { name = "absl-py" },
@@ -981,7 +981,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorflow-estimator"
-version = "2.12.0"
+version = "2.10.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
 { url = "https://files.pythonhosted.org/packages/d1/da/4f264c196325bb6e37a6285caec5b12a03def489b57cc1fdac02bb6272cd/tensorflow_estimator-2.14.0-py2.py3-none-any.whl", hash = "sha256:820bf57c24aa631abb1bbe4371739ed77edb11361d61381fd8e790115ac0fd57", size = 440664 },
