@@ -1,12 +1,18 @@
 version = 1
 requires-python = ">=3.11"
 resolution-markers = [
+<<<<<<< HEAD
     "python_full_version >= '3.13' and sys_platform == 'darwin'",
     "python_full_version == '3.12.*' and sys_platform == 'darwin'",
     "python_full_version >= '3.13' and platform_machine == 'aarch64' and sys_platform == 'linux'",
     "python_full_version == '3.12.*' and platform_machine == 'aarch64' and sys_platform == 'linux'",
     "(python_full_version >= '3.13' and platform_machine != 'aarch64' and sys_platform == 'linux') or (python_full_version >= '3.13' and sys_platform != 'darwin' and sys_platform != 'linux')",
     "(python_full_version == '3.12.*' and platform_machine != 'aarch64' and sys_platform == 'linux') or (python_full_version == '3.12.*' and sys_platform != 'darwin' and sys_platform != 'linux')",
+=======
+    "python_full_version >= '3.12' and sys_platform == 'darwin'",
+    "python_full_version >= '3.12' and platform_machine == 'aarch64' and sys_platform == 'linux'",
+    "(python_full_version >= '3.12' and platform_machine != 'aarch64' and sys_platform == 'linux') or (python_full_version >= '3.12' and sys_platform != 'darwin' and sys_platform != 'linux')",
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
     "python_full_version < '3.12' and sys_platform == 'darwin'",
     "python_full_version < '3.12' and platform_machine == 'aarch64' and sys_platform == 'linux'",
     "(python_full_version < '3.12' and platform_machine != 'aarch64' and sys_platform == 'linux') or (python_full_version < '3.12' and sys_platform != 'darwin' and sys_platform != 'linux')",
@@ -60,6 +66,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "audioop-lts"
 version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -100,6 +107,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
 name = "blinker"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -688,6 +697,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "plotly"
 version = "6.1.2"
 source = { registry = "https://pypi.org/simple" }
@@ -701,6 +711,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
 name = "protobuf"
 version = "4.25.8"
 source = { registry = "https://pypi.org/simple" }
@@ -780,6 +792,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "pyaudio"
 version = "0.2.14"
 source = { registry = "https://pypi.org/simple" }
@@ -794,6 +807,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
 name = "pydeck"
 version = "0.9.1"
 source = { registry = "https://pypi.org/simple" }
@@ -850,10 +865,14 @@ dependencies = [
     { name = "opencv-python" },
     { name = "pandas" },
     { name = "pillow" },
+<<<<<<< HEAD
     { name = "plotly" },
     { name = "pyaudio" },
     { name = "requests" },
     { name = "speechrecognition" },
+=======
+    { name = "requests" },
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
     { name = "streamlit" },
     { name = "tensorflow" },
 ]
@@ -864,10 +883,14 @@ requires-dist = [
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pillow", specifier = ">=11.2.1" },
+<<<<<<< HEAD
     { name = "plotly" },
     { name = "pyaudio" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "speechrecognition" },
+=======
+    { name = "requests", specifier = ">=2.32.3" },
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
     { name = "streamlit", specifier = ">=1.45.1" },
     { name = "tensorflow", specifier = ">=2.14.0" },
 ]
@@ -1014,6 +1037,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "speechrecognition"
 version = "3.14.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1050,6 +1074,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> e27449fd5de33de5eb90f6be58f458d963c74c30
 name = "streamlit"
 version = "1.45.1"
 source = { registry = "https://pypi.org/simple" }
