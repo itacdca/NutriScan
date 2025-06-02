@@ -946,7 +946,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorflow"
-version = "2.14.0"
+version = "2.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
 { name = "absl-py" },
