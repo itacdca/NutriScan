@@ -742,7 +742,7 @@ requires-dist = [
 { name = "pandas", specifier = ">=2.2.3" },
 { name = "pillow", specifier = ">=11.2.1" },
 { name = "streamlit", specifier = ">=1.45.1" },
-{ name = "tensorflow", specifier = ">=2.10.0" },
+{ name = "tensorflow", specifier = ">=2.14.0" },
 ]
 [[package]]
 name = "requests"
@@ -916,7 +916,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorboard"
-version = "2.10.1"
+version = "2.14.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
 { name = "absl-py" },
@@ -946,7 +946,7 @@ wheels = [
 ]
 [[package]]
 name = "tensorflow"
-version = "2.10.0"
+version = "2.14.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
 { name = "absl-py" },
